@@ -8,9 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State private var funFact = ""
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            Text("Fun Facts")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                        
+            Text(funFact)
+                .padding()
+                .font(.title)
+                .frame(minHeight: 400)
+
+            Button("Show Random Fact") {
+                funFact = information.funFacts.randomElement()!
+            }
             .padding()
+            .background(Color.green)
+            .cornerRadius(15)
+//            .label
+        
+        }
+        .padding()
     }
 }
 

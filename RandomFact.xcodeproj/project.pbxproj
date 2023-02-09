@@ -14,6 +14,7 @@
 		D0233E242995784E0094E89D /* RandomFactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0233E232995784E0094E89D /* RandomFactTests.swift */; };
 		D0233E2E2995784E0094E89D /* RandomFactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0233E2D2995784E0094E89D /* RandomFactUITests.swift */; };
 		D0233E302995784E0094E89D /* RandomFactUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0233E2F2995784E0094E89D /* RandomFactUITestsLaunchTests.swift */; };
+		D0233E3D299578D10094E89D /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0233E3C299578D10094E89D /* Information.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D0233E292995784E0094E89D /* RandomFactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomFactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0233E2D2995784E0094E89D /* RandomFactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactUITests.swift; sourceTree = "<group>"; };
 		D0233E2F2995784E0094E89D /* RandomFactUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0233E3C299578D10094E89D /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D0233E122995784C0094E89D /* RandomFactApp.swift */,
 				D0233E142995784C0094E89D /* ContentView.swift */,
+				D0233E3C299578D10094E89D /* Information.swift */,
 				D0233E162995784E0094E89D /* Assets.xcassets */,
 				D0233E182995784E0094E89D /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0233E3D299578D10094E89D /* Information.swift in Sources */,
 				D0233E152995784C0094E89D /* ContentView.swift in Sources */,
 				D0233E132995784C0094E89D /* RandomFactApp.swift in Sources */,
 			);
